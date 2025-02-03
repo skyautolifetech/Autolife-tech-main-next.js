@@ -19,16 +19,16 @@ export default function Home() {
     <>
       <div className="w-full overflow-hidden scroll-smooth">
         <Header />
-        <About />
+        {/* <About /> */}
         <Automation />
         <Floorplan />
         <DashBoard />
-        <WhyAutomate />
+        {/* <WhyAutomate /> */}
         <AutomationLifestyle />
         <Services />
         <Brands />
-        <ProblemsSolutions />
-        <YourHome />
+        {/* <ProblemsSolutions /> */}
+        {/* <YourHome /> */}
         <OtherProblem />
         {/* <ContactForm /> */}
         <Footer />

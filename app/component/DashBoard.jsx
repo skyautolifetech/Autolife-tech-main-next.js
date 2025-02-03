@@ -30,6 +30,15 @@ function DashBoard() {
                 
             </div> */}
         <div className="flex justify-center items-center">
+            <img
+              src="./home2a.png"
+              alt="Home Automation"
+              className="w-3/2 sm:w-2/3 lg:w-5/6 h-auto object-cover rounded"
+              // style={{ width: "20rem" }}
+            />
+          </div>
+
+        {/* <div className="flex justify-center items-center">
           <video
             src="https://autolifetech.com/wp-content/uploads/2021/10/y2mate.com-Hassio-Floorplan-UI-with-Color-synced-lights_1080pFHR.mp4"
             autoPlay
@@ -38,7 +47,8 @@ function DashBoard() {
             className="w-3/2 sm:w-2/3 lg:w-5/6 h-auto object-cover rounded"
             controls  // Optional: Add controls to make the video playable
           ></video>
-        </div>
+        </div> */}
+
       </div>
     </div>
   )
