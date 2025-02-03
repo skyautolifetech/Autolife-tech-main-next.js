@@ -91,7 +91,7 @@ const OtherProblem = () => {
                 {/* Card 1 */}
                 <div className="flex flex-col justify-center items-center  bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./User experience/HotFLusha-woman-sat-in-bed-and-experience-a-head-as-part-of-her-high-blood-pressure-symptoms.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
-                    <h1 className='text-lg sm:text-xl font-bold text-gray-800 text-center w-full'>Children can’t Focus and Study</h1>
+                    <h1 className='text-lg sm:text-xl font-bold text-gray-800 text-center w-full'>Elderly needs safety</h1>
                     <div className="flex flex-col text-center gap-4">
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
                             {dataArr.map((PerAccordion, idx) => (
@@ -118,7 +118,7 @@ const OtherProblem = () => {
                 {/* Card 2 */}
                 <div className="flex flex-col justify-center items-center gap-3 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./User experience/pexels-rodnae-productions-5591833.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
-                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-full'>Addicted to TV Games</h1>
+                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-full'>Helper Call Button</h1>
                     <div className="flex flex-col text-center gap-4">
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
                             {dataArrSec.map((PerAccordion, idx) => (
