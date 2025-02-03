@@ -18,7 +18,7 @@ function Header() {
                 <div className="z-10 text-white absolute flex flex-col items-start bottom-[30%] left-[8vw]">
                     <div>
                         <h1 className="text-4xl md:text-5xl font-bold">
-                            Make your home smart,
+                            {/* Make your home smart, */}
                         </h1>
                         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                             and life simpler
