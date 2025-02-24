@@ -140,7 +140,7 @@ const OtherProblem = () => {
                 <div className="flex flex-col justify-center items-center  bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                 <img src="./User experience/pexels-andrea-piacquadio-3767426.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
                  
-                    <h1 className='text-lg sm:text-xl font-bold text-gray-800 text-center w-full'>Dementia – Loved and Not Forgotten</h1>
+                    <h1 className='text-lg sm:text-xl font-bold text-gray-800 text-center w-full'>Seamless Care</h1>
                     <div className="flex flex-col text-center gap-4">
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
                             {dataArr.map((PerAccordion, idx) => (
@@ -168,7 +168,7 @@ const OtherProblem = () => {
 
                 <div className="flex flex-col justify-center items-center gap-3 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./User experience/pexels-andres-ayrton-6551070-800x1200.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
-                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Addicted to TV Games</h1>
+                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Stay Fit, Stay Smart</h1>
                     <div className="flex flex-col text-center gap-4">
 
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
@@ -199,7 +199,7 @@ const OtherProblem = () => {
                 {/* Card 5 */}
                 <div className="flex flex-col justify-center items-center gap-0 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./User experience/mining-machines.png" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
-                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Dementia – Loved and Not Forgotten</h1>
+                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Stop Energy Thieves</h1>
                     <div className="flex flex-col text-center gap-4">
 
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
