@@ -29,10 +29,6 @@ function Automation() {
   </div>
 </div>
 
-
-      
-      
-
       
     )
 }

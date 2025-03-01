@@ -29,7 +29,7 @@ function WhatsAppButton() {
         <div>
             <div
                 onClick={() => window.open("https://wa.me/+6592212224", "_blank")}
-                className="fixed bottom-5 cursor-pointer right-10 rounded-full shadow-lg flex items-center justify-center"
+                className="fixed bottom-5 cursor-pointer right-10  flex items-center justify-center"
                 aria-label="Chat on WhatsApp"
             >
                 <img
