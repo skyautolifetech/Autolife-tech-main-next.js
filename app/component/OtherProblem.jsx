@@ -111,7 +111,7 @@ const OtherProblem = () => {
 
 
                 {/* Card 2 */}
-                <div className="flex flex-col justify-center items-center gap-3 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
+                <div className="flex flex-col justify-center items-center  bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./User experience/pexels-rodnae-productions-5591833.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
                     <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-full'>Helper Call Button</h1>
                     <div className="flex flex-col text-center gap-4">
@@ -167,7 +167,7 @@ const OtherProblem = () => {
                 {/* Card 4 */}
 
 
-                <div className="flex flex-col justify-center items-center gap-3 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
+                <div className="flex flex-col justify-center items-center  bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./User experience/pexels-andres-ayrton-6551070-800x1200.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
                     <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Stay Fit, Stay Smart</h1>
                     <div className="flex flex-col text-center gap-4">
@@ -230,9 +230,9 @@ const OtherProblem = () => {
 
                 
                 {/* Card 6 */}
-                <div className="flex flex-col justify-center items-center gap-0 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
+                <div className="flex flex-col justify-center items-center  bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./Solutions/Autolifetech-Home-Automation-Solution-Work-from-Home.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
-                    <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Children can’t Focus and Study</h1>
+                    <h1 className='text-xl sm:text-xl1 font-bold text-gray-800 text-center w-fit'>Children can’t Focus and Study</h1>
                     <div className="flex flex-col text-center gap-4">
 
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
@@ -261,7 +261,7 @@ const OtherProblem = () => {
 
                 
                 {/* Card 7 */}
-                <div className="flex flex-col justify-center items-center gap-3 bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
+                <div className="flex flex-col justify-center items-center  bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow max-w-sm w-full">
                     <img src="./Solutions/pexels-ryutaro-tsukata-5472251.jpg" alt="Smart Home Feature" className="w-full h-[250px] object-cover shadow-md" />
                     <h1 className='text-xl sm:text-xl font-bold text-gray-800 text-center w-fit'>Addicted to TV Games</h1>
                     <div className="flex flex-col text-center gap-4">
