@@ -17,7 +17,7 @@ function Page() {
     const handleFullscreenChange = () => {
       const video = videoRef.current;
       if (!video) return;
-
+      
       if (document.fullscreenElement) {
         // Apply rotation only on mobile devices
         if (window.innerWidth < 768) {
