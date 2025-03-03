@@ -67,7 +67,7 @@ function Page() {
             <div className="mb-8 lg:mb-12 text-lg text-gray-600">
               <h1 className="text-2xl sm:text-3xl font-semibold leading-tight">
                 Smart Home, Smarter Living!{" "}
-                <span className="text-blue-400">🏡✨</span>
+                <span className="text-blue-400">🏡</span>
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 italic">
                 "A smart home isn’t just about convenience—it’s about creating a
@@ -80,10 +80,11 @@ function Page() {
                 with ideas for lighting, security, energy savings, and more.
               </p>
 
-              <button class=" mt-4 flex items-center bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-600 focus:outline-none transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg space-x-2">
+              <button onClick={() => window.open("https://wa.me/+6592212224", "_blank")} class=" mt-4 flex items-center bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-600 focus:outline-none transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg space-x-2">
                 <FaWhatsapp class="w-6 h-6" />
                 <span>Whatsapp for PDFs</span>
               </button>
+
             </div>
           </div>
         </div>
