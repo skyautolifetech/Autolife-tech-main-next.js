@@ -14,7 +14,6 @@ function Page() {
 
   return (
     <div className="">
-
       <section id="heroOne">
         <div className="mx-auto">
           <div className="">
@@ -63,6 +62,12 @@ function Page() {
             </div>
           </div>
 
+          {/* <p className="text-lg sm:text-xl text-gray-600 italic">
+                "A smart home isn’t just about convenience—it’s about creating a
+                space that adapts to you, making life easier, safer, and more
+                efficient." – Sky
+              </p> */}
+
           <div className="self-center md:w-1/2">
             <div className="mb-8 lg:mb-12 text-lg text-gray-600">
               <h1 className="text-2xl sm:text-3xl font-semibold leading-tight">
@@ -80,7 +85,6 @@ function Page() {
                 <li>2. Interactive floorplan sample</li>
                 <li>3. Ideas for a smarter home</li>
               </ul>
-
 
               <button
                 onClick={() =>
