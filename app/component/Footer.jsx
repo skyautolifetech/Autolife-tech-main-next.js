@@ -1,32 +1,42 @@
-import React from 'react'
+import React from "react";
 
 function Footer() {
-    return (
-        <div className='bg-black mx-auto py-14 px-6 sm:px-12 lg:px-32 min-h-96 w-full overflow-hidden relative'>
-            <div className="flex flex-col lg:flex-row justify-center  gap-10 text-white ">
-                
-                {/* About AutoLifeTech Section */}
-                <div className="flex flex-col gap-6 " style={{ flex: 1 }}>
-                    <h1 className="text-2xl sm:text-1xl font-semibold">About AutoLifeTech</h1>
-                    <p className="">Inspired to make technology useful to families. We aim to cultivate good habits, achieve your new years’ resolution.</p>
-                    <p className="">Best in Singapore for: 1. Harmonising most number of brands 2. Stunning floorplans and dashboards 3. Advance automations</p>
-                </div>
-
-                {/* Customer Support Section */}
-                <div className="flex flex-col gap-4" style={{ flex: 0.8 }}>
-                    <h1 className="text-2xl sm:text-1xl font-semibold">Customer Support</h1>
-                    <p className="">Whatsapp Support:</p>
-                    <p className="">+ 65 92212224</p>
-                </div>
-
-                {/* Smart Home Automation Section */}
-                <div className="flex flex-col gap-6" style={{ flex: 1 }}>
-                    <h1 className="text-sm  sm:text-base font-semibold text-center">Smart Home Automation</h1>
-                   
-                </div>
-            </div>
-        </div>
-    )
+  return (
+    <div className="mx-auto py-14 px-6 sm:px-12 lg:px-32  w-full overflow-hidden relative ">
+    <div className="flex flex-col lg:flex-row justify-start dark:text-slate-300">
+      {/* About AutoLifeTech Section */}
+      <div className="flex flex-col  lg:w-1/2 text-gray-700 ">
+        {/* <h1 className="inline-block text-2xl font-bold text-gray-900 ">
+          About AutoLifeTech
+        </h1> */}
+        <p className="text-sm text-gray-600 dark:text-slate-700">
+          <span className="text-sm font-semibold text-gray-800  mt-6"> At AutoLifeTech </span> we make technology truly useful for families <br/>helping you build better habits and achieve your goals effortlessly.
+        </p>
+  
+        <p className="text-sm font-semibold text-gray-800  mt-2">
+          Why We’re the Best in Singapore:
+        </p>
+        <ul className="text-sm space-y-2 text-gray-600 dark:text-slate-700">
+          <li>1. Seamlessly integrate the widest range of brands</li>
+          <li>2. Beautiful floorplans & dashboards for intuitive control</li>
+          <li>3. Advanced automations that simplify and enhance daily life</li>
+        </ul>
+  
+        <p className="text-sm text-gray-800  mt-2">
+            <a href="https://wa.me/6592212224" target="_blank">
+          WhatsApp <b>Sky</b> (Smart Home Architect) on <b>+65 92212224</b>
+          </a>
+        </p>
+      </div>
+  
+      {/* Optional second column for contact or other info */}
+      {/* <div className="hidden lg:block lg:w-1/2 text-center"> */}
+        {/* You can add more content here if needed */}
+      {/* </div> */}
+    </div>
+  </div>
+  
+  );
 }
 
-export default Footer
+export default Footer;
