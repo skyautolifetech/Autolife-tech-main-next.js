@@ -143,7 +143,8 @@ const OtherProblem = () => {
                     <h1 className='text-lg sm:text-xl font-bold text-gray-800 text-center w-full'>Seamless Care</h1>
                     <div className="flex flex-col text-center gap-4">
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
-                            {dataArr.map((PerAccordion, idx) => (
+                           
+                            {dataArrTh.map((PerAccordion, idx) => (
                                 <div key={idx} className="border-b border-gray-500/50 py-3 last-of-type:border-b-0">
                                     <button onClick={() => toggle(3, idx)} className="flex h-full w-full items-center justify-between font-medium text-gray-400 outline-none">
                                         <span>{PerAccordion.title}</span>
