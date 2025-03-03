@@ -25,11 +25,12 @@ export default function Home() {
         <DashBoard />
         {/* <WhyAutomate /> */}
         <AutomationLifestyle />
-        <Services />
-        <Brands />
+        {/* <Services /> */}
+
         {/* <ProblemsSolutions /> */}
         {/* <YourHome /> */}
         <OtherProblem />
+        <Brands />
         {/* <ContactForm /> */}
         <Footer />
         <WhatsAppButton />

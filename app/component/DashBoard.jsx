@@ -6,7 +6,7 @@ function DashBoard() {
       <div className="mx-auto py-14 px-6 md:px-20 lg:px-32 min-h-96 mb-4 w-full overflow-hidden relative bg-gradient-to-b from-stone-300 via-gray-40 to-stone-300">
         {/* Section Title */}
         <div className="text-center mb-12 flex flex-col gap-4 items-center">
-          <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p>
+          {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
           <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-gray-800 leading-tight">
             Your All-in-one System
           </h1>

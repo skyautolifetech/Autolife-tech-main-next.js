@@ -44,7 +44,7 @@ function AutomationLifestyle() {
 
     <div className="text-center mb-12">
       <p className="text-gray-600 text-lg font-bold sm:text-3xl md:text-4xl mb-4 md:w-3/4 w-full mx-auto">
-        A truly thoughtful home automation considers the lifestyle you want
+      A truly intelligent home automation system designed around your lifestyle
       </p>
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
