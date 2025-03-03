@@ -18,7 +18,7 @@ function Page() {
       <section id="heroOne">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="py-12">
-            {/* <div className="relative m-auto max-w-5xl"> */}
+            <div className="relative m-auto max-w-5xl">
               <video
                 className="mx-auto h-auto w-full rounded-md bg-gray-400 dark:bg-slate-700"
                 src="/Home.mp4"

@@ -48,7 +48,7 @@ function Page() {
 
       {/* Contact Section */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="flex flex-col md:flex-row md:gap-16">
+        <div className="flex flex-col items-center md:flex-row md:gap-16">
           <div className=" md:mt-0 md:w-1/2">
             <div className="relative m-auto max-w-4xl">
               <img
@@ -81,9 +81,9 @@ function Page() {
               </p>
 
               <ul className="text-md pt-2">
-                <li>Smart home concept</li>
-                <li>interactive floorplan sample</li>
-                <li>ideas for a smarter home</li>
+                <li>1. Solutions to existing home problems</li>
+                <li>2. Interactive floorplan sample</li>
+                <li>3. Ideas for a smarter home</li>
               </ul>
 
 
