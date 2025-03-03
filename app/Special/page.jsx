@@ -14,6 +14,7 @@ function Page() {
 
   return (
     <div className="py-0 pb-12 sm:pb-16 lg:pb-20">
+      
       <section id="heroOne">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="py-12">
@@ -48,7 +49,6 @@ function Page() {
       {/* Contact Section */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="flex flex-col md:flex-row md:gap-16">
-          
           <div className=" md:mt-0 md:w-1/2">
             <div className="relative m-auto max-w-4xl">
               <img
@@ -80,11 +80,15 @@ function Page() {
                 with ideas for lighting, security, energy savings, and more.
               </p>
 
-              <button onClick={() => window.open("https://wa.me/+6592212224", "_blank")} class=" mt-4 flex items-center bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-600 focus:outline-none transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg space-x-2">
+              <button
+                onClick={() =>
+                  window.open("https://wa.me/+6592212224", "_blank")
+                }
+                class=" mt-4 flex items-center bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-600 focus:outline-none transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg space-x-2"
+              >
                 <FaWhatsapp class="w-6 h-6" />
                 <span>Whatsapp for PDFs</span>
               </button>
-
             </div>
           </div>
         </div>
