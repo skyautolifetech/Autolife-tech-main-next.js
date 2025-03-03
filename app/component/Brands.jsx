@@ -41,20 +41,17 @@ function Brands() {
         { "img": "/brands/36.png" }
     ]
 
-
-
-
     return (
         <div className="mx-auto py-14 md:px-20 lg:px-32 min-h-96 mb-4 w-full overflow-hidden relative">
 
             {/* Section Heading */}
             <div className="text-center mb-12 flex flex-col gap-3 items-center">
-                <p className="font-bold">Known for technology and design</p>
+                {/* <p className="font-bold">Known for technology and design</p> */}
                 <h1 className="text-2xl sm:text-4xl font-extrabold text-gray-800">
-                    1000+ Intelligent Integrations
+                    1000+ Favourite brands
                 </h1>
-                <p>Most number of brands compared to any other system</p>
-                <div className="border-b-2 border-gray-400 w-56"></div>
+                {/* <p>Most number of brands compared to any other system</p> */}
+                {/* <div className="border-b-2 border-gray-400 w-56"></div> */}
             </div>
 
             {/* Brand Grid */}

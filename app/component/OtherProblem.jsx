@@ -20,7 +20,7 @@ const OtherProblem = () => {
     
     const dataArrTh = [
         { title: "Read Issue", description: 'Sarah was recovering from a cold, but maintaining a cozy, restful environment was tough. Her mum struggled to keep the room at the perfect temperature and ensure fresh air.' },
-        { title: "Our Solution", description: 'With AutoLife’s IoT tech, Sarah’s room adapted automatically—temperature, air quality, and soothing music were all optimized. Presence sensors kept everything just right, offering seamless care without extra effort.' },
+        { title: "Our Solution", description: 'With AutoLife’s IoT tech, Sarah’s room adapted automatically—temperature, air quality, and soothing music were all optimized. Air quality sensors kept everything just right, offering seamless care without extra effort.' },
         { title: "Final Results", description: 'Sarah recovered faster, and her mum felt at ease knowing the smart home had everything under control.' },
     ];
     
@@ -32,7 +32,7 @@ const OtherProblem = () => {
     
     const dataArrFifth = [
         { title: "Read Issue", description: 'John rented out rooms with utilities included to boost his income. However, he was surprised when his electricity bill shot up by nearly 50%. He needed to find out what was driving the sudden surge in energy consumption.' },
-        { title: "Our Solution", description: 'We installed smart sockets and presence detectors to monitor real-time electrical usage and room activity. This allowed John to track consumption patterns and identify any unusual spikes.' },
+        { title: "Our Solution", description: 'We installed smart sockets to monitor real-time electrical usage and room activity. This allowed John to track consumption patterns and identify any unusual spikes.' },
         { title: "Final Results", description: 'John quickly discovered that one room was consuming an excessive amount of power. Upon investigation, he found that the tenant had set up bitcoin mining machines running 24/7. With clear evidence, John successfully renegotiated the rental agreement, adjusting the price to account for the additional energy costs.' },
     ];
     
@@ -44,7 +44,7 @@ const OtherProblem = () => {
     
     const dataArrSev = [
         { title: "Read Issue", description: 'Jason, a primary school student, used to spend hours playing his favorite TV game, Plants vs. Zombies, right after school. His routine often led to arguments with his mum, especially when he fibbed about his gaming habits. She wanted him to shower, complete an hour of homework, and only then enjoy his game time.' },
-        { title: "Our Solution", description: "With AutoLife's intelligent IoT technology, Jason’s mum gained full control over the TV's main power. She set a tailored focus study mode just for him—optimizing lighting, air conditioning, and background music, all synced with an inbuilt timer. A presence sensor in his study chair ensured he stayed focused for a full hour before unlocking the TV for gaming." },
+        { title: "Our Solution", description: "With AutoLife's intelligent IoT technology, Jason’s mum gained full control over the TV's main power. She set an automation that disables the TV from 2-5pm" },
         { title: "Final Results", description: 'Now, Jason showers as soon as he gets home and maintains a solid hour of study time before enjoying his games. His mum is thrilled with the newfound balance, and the household is more harmonious than ever.' },
     ];
     
@@ -68,9 +68,9 @@ const OtherProblem = () => {
         <div className="mx-auto py-14 flex flex-col justify-center items-center px-4 sm:px-6 md:px-20 lg:px-32 min-h-96 mb-4 w-full overflow-hidden relative" style={{ backgroundColor: '#D4D0D6' }}>
             {/* Header Section */}
             <div className="flex flex-col justify-center items-center my-6 text-center">
-                <p className="text-lg text-gray-600 tracking-wide">User experience and design</p>
+                {/* <p className="text-lg text-gray-600 tracking-wide">User experience and design</p> */}
                 <h1 className="text-3xl sm:text-5xl font-extrabold text-gray-800 mb-4">
-                    Other Problems You Might Face
+                    Solutions Based Design
                 </h1>
             </div>
 
@@ -143,8 +143,7 @@ const OtherProblem = () => {
                     <h1 className='text-lg sm:text-xl font-bold text-gray-800 text-center w-full'>Seamless Care</h1>
                     <div className="flex flex-col text-center gap-4">
                         <div className="w-full max-w-[500px] rounded-lg bg-white p-2 *:mix-blend-difference">
-                           
-                            {dataArrTh.map((PerAccordion, idx) => (
+                            {dataArr.map((PerAccordion, idx) => (
                                 <div key={idx} className="border-b border-gray-500/50 py-3 last-of-type:border-b-0">
                                     <button onClick={() => toggle(3, idx)} className="flex h-full w-full items-center justify-between font-medium text-gray-400 outline-none">
                                         <span>{PerAccordion.title}</span>

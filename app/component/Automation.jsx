@@ -22,7 +22,7 @@ function Automation() {
         Do you have too many smart apps to control?
       </h1>
       <p className="text-sm sm:text-base text-gray-700">
-        Too many remotes, too many apps. Smart devices do not talk to each other.
+        Too many remotes, too many apps. Smart devices do not talk to each other?
         Experience a different way with your All-in-One home control.
       </p>
     </div>

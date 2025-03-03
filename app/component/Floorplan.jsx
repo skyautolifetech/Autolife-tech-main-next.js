@@ -11,7 +11,7 @@ function Floorplan() {
             <img
               src="./mobile-floorplan.png"
               alt="Home Automation"
-              className="w-full h-auto rounded-lg shadow-md"
+              className="w-full h-auto"
               style={{ width: "15rem" }}
             />
           </div>
@@ -22,7 +22,8 @@ function Floorplan() {
             </h1>
             <p className="text-sm sm:text-base text-gray-700">
               Always a conversation maker, Guests have been saying “Impressive, this actually exist? WOW!”
-              At a glance, be in-charge and control your whole home.
+              <br/>
+              <br/>At one glance, be in-charge and control your whole home.
             </p>
           </div>
       
