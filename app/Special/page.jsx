@@ -69,11 +69,6 @@ function Page() {
                 Smart Home, Smarter Living!{" "}
                 <span className="text-blue-400">🏡</span>
               </h1>
-              {/* <p className="text-lg sm:text-xl text-gray-600 italic">
-                "A smart home isn’t just about convenience—it’s about creating a
-                space that adapts to you, making life easier, safer, and more
-                efficient." – Sky
-              </p> */}
               <p className="text-base sm:text-lg text-gray-600">
                 Discover how your home can be smarter with a custom smart home
                 concept designed just for you! Get a personalized automation PDF
