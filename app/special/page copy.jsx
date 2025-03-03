@@ -53,7 +53,7 @@ function Page() {
             <div className="relative m-auto max-w-4xl">
               <img
                 className="mx-auto w-full rounded-lg"
-                src="./homeautomation-banner2.png"
+                src="./special.jpg"
                 width={828}
                 height={828}
                 sizes="(max-width: 768px) 100vw, 432px"
