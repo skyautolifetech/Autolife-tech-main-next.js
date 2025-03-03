@@ -33,7 +33,7 @@ function WhatsAppButton() {
                 aria-label="Chat on WhatsApp"
             >
                 <img
-                    src="/whatsApp.png"
+                    src="/whatsAppLogo.png"
                     alt="WhatsApp"
                     className="w-[70px] h-full"
                 />
