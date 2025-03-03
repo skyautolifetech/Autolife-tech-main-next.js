@@ -46,13 +46,13 @@ function Page() {
       </section>
 
       {/* Contact Section */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4">
         <div className="flex flex-col items-center md:flex-row md:gap-16">
           <div className=" md:mt-0 md:w-1/2">
             <div className="relative m-auto max-w-4xl">
               <img
-                className="mx-auto w-full rounded-lg"
-                src="./homeautomation-banner2.png"
+                className="mx-auto w-2/3 rounded-lg"
+               src="./special.jpg"
                 width={828}
                 height={828}
                 sizes="(max-width: 768px) 100vw, 432px"
