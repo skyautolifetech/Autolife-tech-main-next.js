@@ -71,7 +71,7 @@ function Page() {
           <div className="self-center md:w-1/2">
             <div className="mb-8 lg:mb-12 text-lg text-gray-600">
               <h1 className="text-2xl sm:text-3xl font-semibold leading-tight">
-                Smart Home, Smarter Living!{" "}
+                Smart Home, Smarter Living! And Smart life{" "}
                 <span className="text-blue-400">🏡</span>
               </h1>
               <p className="text-base sm:text-lg text-gray-600">
