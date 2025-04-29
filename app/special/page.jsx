@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { FaWhatsapp } from "react-icons/fa";
+
 function Page() {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);
@@ -13,86 +14,95 @@ function Page() {
   };
 
   return (
-    <div className="">
-      <section id="heroOne">
-        <div className="mx-auto">
-          <div className="">
-            <div className="relative m-auto ">
-              <video
-                className="mx-auto h-auto w-full bg-gray-400 dark:bg-slate-700"
-                src="/Home.mp4"
-                width={1024}
-                height={607}
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                controls
-                autoPlay
-                muted
-                loop
-              />
-            </div>
+    <div className="bg-gray-50 min-h-screen">
 
-            {/* <div className="relative m-auto max-w-5xl pt-3">
-              <iframe
-                className="mx-auto h-auto w-full aspect-video bg-gray-400 dark:bg-slate-700"
-                src="https://www.youtube.com/embed/dftKArsWaCs"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div> */}
-          </div>
-        </div>
+
+
+      <section className="w-full aspect-video overflow-hidden">
+        <iframe
+          className="w-full h-full bg-gray-400 dark:bg-slate-700"
+          src="https://www.youtube.com/embed/geXBYnTDrrs?vq=hd1080&rel=0&modestbranding=1&autoplay=0&mute=0&controls=1"
+          title="YouTube video 1"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
       </section>
 
-      {/* Contact Section */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-4">
-        <div className="flex flex-col items-center md:flex-row md:gap-16">
-          <div className=" md:mt-0 md:w-1/2">
-            <div className="relative m-auto max-w-4xl">
-              <img
-                className="mx-auto w-2/3 rounded-lg"
-               src="./special.jpg"
-                width={828}
-                height={828}
-                sizes="(max-width: 768px) 100vw, 432px"
-                placeholder="blur"
-                quality={50}
-              />
+      <section className="w-full aspect-video overflow-hidden my-2">
+        <iframe
+          className="w-full h-full bg-gray-400 dark:bg-slate-700"
+          src="https://www.youtube.com/embed/BEvUWrno7FI"
+          title="YouTube video 2"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
+      </section>
+
+      <section className="w-full aspect-video overflow-hidden">
+        <iframe
+          className="w-full h-full bg-gray-400 dark:bg-slate-700"
+          src="https://www.youtube.com/embed/VqoNXslPZ0Q"
+          title="YouTube video 3"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
+      </section>
+
+
+
+
+      <div className="mx-auto max-w-7xl px-[1rem] sm:px-[1.5rem] py-[3rem]">
+        <div className="flex flex-col items-center md:flex-row md:gap-12">
+          {/* Iframe Section */}
+          <div className="md:mt-0 md:w-1/2 flex justify-center">
+            <div className="relative max-w-xl scale-90 transform transition-all duration-300">
+              {/* Iframe with Clipped Header */}
+              <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border-[0.1875rem] border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
+                <iframe
+                  src="https://demo.home-assistant.io/#/lovelace/home"
+                  className="w-[23.4375rem] h-[43.75rem] bg-white -mt-[5rem] rounded-[2rem]"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
 
-          {/* <p className="text-lg sm:text-xl text-gray-600 italic">
-                "A smart home isn’t just about convenience—it’s about creating a
-                space that adapts to you, making life easier, safer, and more
-                efficient." – Sky
-              </p> */}
+          {/* Text Section */}
 
-          <div className="self-center md:w-1/2">
-            <div className="mb-8 lg:mb-12 text-lg text-gray-600">
-              <h1 className="text-2xl sm:text-3xl font-semibold leading-tight">
-                Smart Home, Smarter Living! And Smart life{" "}
-                <span className="text-blue-400">🏡</span>
+          <div className="self-center md:w-1/2 mt-[2rem] md:mt-0">
+            <div className="mb-[2rem] lg:mb-[3rem]">
+
+              <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-gray-800 tracking-tight">
+                Smart Home, Smarter Living,{" "}
+                <span className="text-blue-500">🏡</span>
               </h1>
-              <p className="text-base sm:text-lg text-gray-600">
-                Discover how your home can be smarter with a custom smart home
-                concept designed just for you! Get a personalized automation PDF
-                with ideas for lighting, security, energy savings, and more.
+              <p className="mt-[1.25rem] text-lg text-gray-600 leading-relaxed">
+                Discover how your home can be smarter with a custom smart home concept designed just for you! Get a personalized automation PDF with ideas for lighting, security, energy savings, and more.
               </p>
 
-              <ul className="text-md pt-2">
-                <li>1. Solutions to existing home problems</li>
-                <li>2. Interactive floorplan sample</li>
-                <li>3. Ideas for a smarter home</li>
+              <ul className="mt-[1.75rem] text-md text-gray-700 space-y-2">
+                <li className="flex items-center">
+                  <span className="w-[1.5rem] h-[1.5rem] mr-[0.5rem]">1.</span> Solutions to existing home problems
+                </li>
+                <li className="flex items-center">
+                  <span className="w-[1.5rem] h-[1.5rem] mr-[0.5rem]">2.</span> Interactive floorplan sample
+                </li>
+                <li className="flex items-center">
+                  <span className="w-[1.5rem] h-[1.5rem] mr-[0.5rem]">3.</span> Ideas for a smarter home
+                </li>
               </ul>
 
               <button
-                onClick={() =>
-                  window.open("https://wa.me/+6592212224", "_blank")
-                }
-                class=" mt-4 flex items-center bg-green-500 text-white py-2 px-6 rounded-full hover:bg-green-600 focus:outline-none transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg space-x-2"
+                onClick={() => window.open("https://wa.me/+6592212224", "_blank")}
+                className="mt-[2rem] flex items-center bg-gradient-to-r from-green-500 to-green-600  transition-colors text-white py-[0.75rem] px-[2rem] rounded-full focus:outline-none shadow-md space-x-3 text-lg font-medium"
               >
-                <FaWhatsapp className="w-6 h-6" />
+                <FaWhatsapp className="w-[1.5rem] h-[1.5rem]" />
                 <span>WhatsApp for PDF Plans</span>
               </button>
             </div>
