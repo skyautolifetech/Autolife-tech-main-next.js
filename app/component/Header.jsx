@@ -8,6 +8,7 @@ function Header() {
             <div className=" min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden relative">
                 <video
                     src="/Home.mp4"
+                    loading="lazy"
                     autoPlay
                     loop
                     muted
