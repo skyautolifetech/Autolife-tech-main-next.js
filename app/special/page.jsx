@@ -57,7 +57,7 @@ function Page() {
 
 
 
-        <div className="relative px-2 sm:px-4 lg:px-8 py-1 sm:pt-0 sm:mt-0">
+        <div className="relative px-2 py-1 sm:pt-0 sm:mt-0">
           <div className="mx-auto w-full max-w-none sm:max-w-screen-lg sm:rounded-2xl sm:shadow-md overflow-hidden">
             <div className="aspect-[16/9]">
               <iframe
@@ -73,8 +73,8 @@ function Page() {
         </div>
 
 
-        <div className="relative px-2 sm:px-4 lg:px-8 py-1 sm:pt-0 sm:mt-0">
-         
+        <div className="relative px-2  py-1 sm:pt-0 sm:mt-0">
+
           <div className="mx-auto w-full max-w-none sm:max-w-screen-lg sm:rounded-2xl sm:shadow-md overflow-hidden">
             <div className="aspect-[16/9]">
               <iframe
@@ -91,8 +91,8 @@ function Page() {
         </div>
 
 
-        <div className="relative px-2 sm:px-4 lg:px-8 pb-2 pt-1 sm:pt-0 sm:mt-0">
-          
+        <div className="relative px-2  pb-2 pt-1 sm:pt-0 sm:mt-0">
+
           <div className="mx-auto w-full max-w-none sm:max-w-screen-lg sm:rounded-2xl sm:shadow-md overflow-hidden">
             <div className="aspect-[16/9]">
               <iframe
@@ -111,39 +111,40 @@ function Page() {
 
 
         {/* Smart Home PDF Offer Section */}
-        <section className="bg-gray-200 min-h-screen flex flex-col justify-center items-center">
-  <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
-    <div className="text-center flex flex-col gap-4 items-center">
-      {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
-      <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-        Mobile demo
-      </h1>
-      <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
-    </div>
+        <section className="bg-gray-200 py-5 flex flex-col justify-center items-center">
+          <div className="mx-auto max-w-7xl">
+            <div className="text-center flex flex-col gap-4 items-center">
+              {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
+              <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+                Mobile demo
+              </h1>
+              <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
+            </div>
 
-    <div className="flex justify-center items-center">
-      {/* Iframe Section */}
-      <div className="relative max-w-xl scale-90 transform transition-all duration-300">
-        <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
-          <iframe
-            src="https://demo.home-assistant.io/#/lovelace/home"
-            className="w-[23.4375rem] h-[38.75rem] bg-white rounded-[2rem]"
-            allowFullScreen
-            title="Home Assistant Demo"
-          ></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+            <div className="flex justify-center items-center">
+              {/* Iframe Section */}
+              <div className="relative max-w-xl scale-90 transform transition-all duration-300">
+                <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
+                  <iframe
+                    src="https://demo.home-assistant.io/#/lovelace/home"
+                    className="w-[23.4375rem] h-[38.75rem] bg-white rounded-[2rem]"
+                    allowFullScreen
+                    title="Home Assistant Demo"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* lovelace UI 2 */}
 
-        <section className="py-12 bg-white">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <section className="py-5 bg-white">
+          <div className="mx-auto max-w-7xl sm:px-6">
             {/* Heading */}
             <div className="text-center flex flex-col gap-4 items-center">
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+              {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
+              <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
                 Your Home Demo
               </h1>
               <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
@@ -167,13 +168,13 @@ function Page() {
 
         {/* text section */}
         <section className="">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 ">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-5 ">
 
-            <div className=" mt-8 md:mt-0">
+            <div className="  md:mt-0">
               <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-gray-800 tracking-tight">
                 Smart Home, Smarter Living <span className="text-blue-500">🏡</span>
               </h1>
-              <p className="mt-4 text-lg text-gray-600 w-5/6">
+              <p className="mt-4 text-lg text-gray-600 ">
                 Discover how your home can be smarter with a custom smart home concept designed just for you! Get a personalized automation PDF with ideas for lighting, security, energy savings, and more.
               </p>
               <ul className="mt-[1.75rem] text-md text-gray-700 space-y-2">
