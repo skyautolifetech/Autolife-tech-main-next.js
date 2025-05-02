@@ -113,7 +113,7 @@ function Page() {
         {/* Smart Home PDF Offer Section */}
         <section className="bg-gray-200 py-5 flex flex-col justify-center items-center">
           <div className="mx-auto max-w-7xl">
-            <div className="text-center flex flex-col gap-3 items-center">
+            <div className="text-center flex flex-col gap-2 items-center">
               {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
               <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
                 Mobile Demo
@@ -142,7 +142,7 @@ function Page() {
         <section className="py-5 bg-white">
           <div className="mx-auto max-w-7xl sm:px-6">
             {/* Heading */}
-            <div className="text-center flex flex-col gap-3 items-center">
+            <div className="text-center flex flex-col gap-2 items-center">
               {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
               <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
                 Your Home Demo
