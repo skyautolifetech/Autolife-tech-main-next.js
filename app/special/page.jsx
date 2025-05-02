@@ -168,7 +168,7 @@ function Page() {
 
         {/* text section */}
         <section className="">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-5 pb-9">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 pt-2 pb-12">
 
             <div className="  md:mt-0">
               <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-gray-800 tracking-tight">
