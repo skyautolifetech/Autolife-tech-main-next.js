@@ -21,7 +21,8 @@ function Page() {
       <main className="bg-gray-50 min-h-screen">
 
         {/* Video Sections */}
-        <section className="w-full aspect-video overflow-hidden">
+
+        {/* <section className="w-full aspect-video overflow-hidden">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/geXBYnTDrrs?vq=hd1080&rel=0&modestbranding=1&autoplay=0&mute=0&controls=1"
@@ -30,8 +31,8 @@ function Page() {
             allowFullScreen
             loading="lazy"
           ></iframe>
-        </section>
-
+        </section> */}
+        {/* 
         <section className="w-full aspect-video overflow-hidden my-2">
           <iframe
             className="w-full h-full"
@@ -41,9 +42,9 @@ function Page() {
             allowFullScreen
             loading="lazy"
           ></iframe>
-        </section>
+        </section> */}
 
-        <section className="w-full aspect-video overflow-hidden">
+        {/* <section className="w-full aspect-video overflow-hidden">
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/VqoNXslPZ0Q"
@@ -52,13 +53,15 @@ function Page() {
             allowFullScreen
             loading="lazy"
           ></iframe>
-        </section>
+        </section> */}
 
-        <div className="relative px-0 sm:px-4 lg:px-8 py-12">
+
+
+        <div className="relative px-2 sm:px-4 lg:px-8 py-1 sm:pt-0 sm:mt-0">
           <div className="mx-auto w-full max-w-none sm:max-w-screen-lg sm:rounded-2xl sm:shadow-md overflow-hidden">
             <div className="aspect-[16/9]">
               <iframe
-                className="w-full h-full sm:rounded-2xl sm:border sm:border-gray-300 rounded-none border-0 "
+                className="w-full h-full sm:rounded-2xl mt-1 sm:border sm:border-gray-300  block max-w-5xl mx-auto rounded"
                 src="https://www.youtube.com/embed/VqoNXslPZ0Q"
                 title="Smart Home Automation Demo 3"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,30 +73,107 @@ function Page() {
         </div>
 
 
+        <div className="relative px-2 sm:px-4 lg:px-8 py-1 sm:pt-0 sm:mt-0">
+         
+          <div className="mx-auto w-full max-w-none sm:max-w-screen-lg sm:rounded-2xl sm:shadow-md overflow-hidden">
+            <div className="aspect-[16/9]">
+              <iframe
+                className="w-full h-full sm:rounded-2xl sm:border sm:border-gray-300  block max-w-5xl mx-auto rounded"
+                src="https://www.youtube.com/embed/geXBYnTDrrs?vq=hd1080&rel=0&modestbranding=1&autoplay=0&mute=0&controls=1"
+
+                title="Smart Home Automation Demo 3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="relative px-2 sm:px-4 lg:px-8 pb-2 pt-1 sm:pt-0 sm:mt-0">
+          
+          <div className="mx-auto w-full max-w-none sm:max-w-screen-lg sm:rounded-2xl sm:shadow-md overflow-hidden">
+            <div className="aspect-[16/9]">
+              <iframe
+                className="w-full h-full sm:rounded-2xl sm:border sm:border-gray-300  block max-w-5xl mx-auto rounded"
+                src="https://www.youtube.com/embed/BEvUWrno7FI"
+                title="Smart Home Automation Demo 3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+
+
+
         {/* Smart Home PDF Offer Section */}
-        <section className="mx-auto max-w-7xl px-4 sm:px-6 py-9
-        ">
-          <div className="flex flex-col items-center md:flex-row md:gap-12">
+        <section className="bg-gray-200 min-h-screen flex flex-col justify-center items-center">
+  <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12">
+    <div className="text-center flex flex-col gap-4 items-center">
+      {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
+      <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+        Mobile demo
+      </h1>
+      <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
+    </div>
+
+    <div className="flex justify-center items-center">
+      {/* Iframe Section */}
+      <div className="relative max-w-xl scale-90 transform transition-all duration-300">
+        <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
+          <iframe
+            src="https://demo.home-assistant.io/#/lovelace/home"
+            className="w-[23.4375rem] h-[38.75rem] bg-white rounded-[2rem]"
+            allowFullScreen
+            title="Home Assistant Demo"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        {/* lovelace UI 2 */}
+
+        <section className="py-12 bg-white">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            {/* Heading */}
+            <div className="text-center flex flex-col gap-4 items-center">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+                Your Home Demo
+              </h1>
+              <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
+            </div>
+
             {/* Iframe Section */}
-            <div className="md:w-1/2 flex justify-center">
-              <div className="relative max-w-xl scale-90 transform transition-all duration-300">
+            <div className="flex justify-center items-center ">
+              <div className="relative scale-90 transform transition-transform duration-300">
                 <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
                   <iframe
-                    src="https://demo.home-assistant.io/#/lovelace/home"
+                    src="https://bbah5uainnohr5ma40kxg84yzg96uyi7.ui.nabu.casa/dashboard-frontalfp/frontv1"
                     className="w-[23.4375rem] h-[38.75rem] bg-white rounded-[2rem]"
                     allowFullScreen
-                    title="Home Assistant Demo"
+                    title="Smart home"
                   ></iframe>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            {/* Text Section */}
-            <div className="md:w-1/2 mt-8 md:mt-0">
+        {/* text section */}
+        <section className="">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 ">
+
+            <div className=" mt-8 md:mt-0">
               <h1 className="text-3xl sm:text-4xl font-bold leading-tight text-gray-800 tracking-tight">
                 Smart Home, Smarter Living <span className="text-blue-500">🏡</span>
               </h1>
-              <p className="mt-4 text-lg text-gray-600">
+              <p className="mt-4 text-lg text-gray-600 w-5/6">
                 Discover how your home can be smarter with a custom smart home concept designed just for you! Get a personalized automation PDF with ideas for lighting, security, energy savings, and more.
               </p>
               <ul className="mt-[1.75rem] text-md text-gray-700 space-y-2">
@@ -118,6 +198,8 @@ function Page() {
             </div>
           </div>
         </section>
+
+
       </main>
     </>
   );
