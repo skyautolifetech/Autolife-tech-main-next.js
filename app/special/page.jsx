@@ -111,7 +111,7 @@ function Page() {
 
 
         {/* Smart Home PDF Offer Section */}
-        <section className="bg-gray-200 py-5 flex flex-col justify-center items-center">
+        <section className="bg-gray-200 pt-2 flex flex-col justify-center items-center">
           <div className="mx-auto max-w-7xl">
             <div className="text-center flex flex-col gap-2 items-center">
               {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
@@ -121,9 +121,9 @@ function Page() {
               <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
             </div>
 
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center pb-5">
               {/* Iframe Section */}
-              <div className="relative max-w-xl scale-90 transform transition-all duration-300">
+              <div className="relative max-w-xl scale-x-90 scale-y-85 py-3 transform transition-all duration-300">
                 <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
                   <iframe
                     src="https://demo.home-assistant.io/#/lovelace/home"
@@ -139,18 +139,14 @@ function Page() {
 
         {/* lovelace UI 2 */}
 
-        <section className="py-5 bg-white">
+        {/* <section className="py-5 bg-white">
           <div className="mx-auto max-w-7xl sm:px-6">
-            {/* Heading */}
             <div className="text-center flex flex-col gap-2 items-center">
-              {/* <p className="font-bold text-lg sm:text-xl"> Simple, Secure and Reliable</p> */}
               <h1 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
                 Your Home Demo
               </h1>
               <div className="border-b-2 border-gray-400 w-32 sm:w-56"></div>
             </div>
-
-            {/* Iframe Section */}
             <div className="flex justify-center items-center ">
               <div className="relative scale-90 transform transition-transform duration-300">
                 <div className="relative overflow-hidden w-[23.4375rem] h-[38.75rem] rounded-[2.5rem] shadow-lg border border-blue-300/50 bg-white/30 backdrop-blur-md ring-1 ring-blue-200/50">
@@ -164,7 +160,7 @@ function Page() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* text section */}
         <section className="">
@@ -177,25 +173,26 @@ function Page() {
               <p className="mt-4 text-lg text-gray-600 ">
                 Discover how your home can be smarter with a custom smart home concept designed just for you! Get a personalized automation PDF with ideas for lighting, security, energy savings, and more.
               </p>
-              <ul className="mt-[1.75rem] text-md text-gray-700 space-y-2">
-                <li className="flex items-center">
-                  <span className="w-[1.5rem] h-[1.5rem] mr-[0.5rem]">1.</span> Solutions to existing home problems
-                </li>
-                <li className="flex items-center">
-                  <span className="w-[1.5rem] h-[1.5rem] mr-[0.5rem]">2.</span> Interactive floorplan sample
-                </li>
-                <li className="flex items-center">
-                  <span className="w-[1.5rem] h-[1.5rem] mr-[0.5rem]">3.</span> Ideas for a smarter home
-                </li>
-              </ul>
+              <p className="mt-4 text-lg text-gray-600 ">
+              1. Solutions to existing home problems
+              </p>
+              <p className="mt-4 text-lg text-gray-600 ">
+              2. Interactive floorplan sample
+              </p>
+              <p className="mt-4 text-lg text-gray-600 ">
+              3. Ideas for a smarter home
+              </p>
 
               <button
                 onClick={() => window.open("https://wa.me/+6592212224", "_blank")}
                 className="mt-6 flex items-center bg-gradient-to-r from-green-500 to-green-600 transition-colors text-white py-3 px-6 rounded-full shadow-md text-lg font-medium"
               >
-                <FaWhatsapp className="w-6 h-6 mr-2" />
+                <FaWhatsapp className="w-6 h-6 mr-2 " />
                 WhatsApp for PDF Plans
               </button>
+              <p className="mt-4 text-lg text-gray-600 ">
+               
+              </p>
             </div>
           </div>
         </section>
